@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aundrea Nandie Ncube - Portfolio</title>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="logo-text">AUNDREA</span>
+          <div class="logo-dot"></div>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu" id="mobileMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-background">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+          <div class="shape shape-5"></div>
+          <div class="shape shape-6"></div>
+        </div>
+        <div class="particles">
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="swoop-in" data-text="Hi, I'm Aundrea Nandie Ncube">
+            Hi, I'm Aundrea
+          </h1>
+          <p class="typewriter">
+            Aspiring Full-Stack Developer & Cyber Security Engineer
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <div class="btn-glow"></div>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Get In Touch</span>
+              <div class="btn-glow"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section-title">
+          <span>About Me</span>
+          <div class="title-glow"></div>
+        </h2>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-wrapper">
+              <img
+                src="../IMG/ANNcube.jpeg"
+                alt="Aundrea Nandie Ncube"
+                onerror="this.style.display='none'"
+              />
+              <div class="image-overlay"></div>
+              <div class="image-border"></div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="highlight">
+              I'm a final-year Computer Science student at the University of
+              Pretoria, a full-stack developer with a strong interest in
+              cybersecurity engineering. I thrive on building end-to-end web and
+              mobile applications and securing applications against emerging
+              threats.
+            </p>
+            <p>
+              Beyond development, I'm passionate about understanding the
+              security principles that keep systems resilient, and I'm
+              constantly exploring new tools to expand my expertise. When I'm
+              not coding, I enjoy tutoring fellow students in computer science
+              modules—something that fuels my love for problem-solving.
+            </p>
+            <p>
+              As I approach graduation, I'm focused on growing my professional
+              brand, contributing to meaningful tech projects, and deepening my
+              knowledge in both software engineering and cybersecurity to build
+              a career at the intersection of innovation and security.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="fas fa-project-diagram"></i>
+                </div>
+                <span class="stat-number" data-count="23">23</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="fas fa-smile"></i>
+                </div>
+                <span class="stat-number" data-count="3">3</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <span class="stat-number" data-count="7">Available</span>
+                <span class="stat-label">Available</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section-title">
+          <span>My Skills</span>
+          <div class="title-glow"></div>
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-item" data-skill="frontend">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>JavaScript, HTML5, CSS3, TypeScript</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="75">
+                <span class="progress-text">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item" data-skill="backend">
+            <div class="skill-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Backend Development</h3>
+            <p>Node.js, Express.js, RESTful APIs</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="75">
+                <span class="progress-text">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item" data-skill="database">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Database, Cloud, Deployment</h3>
+            <p>PostgreSQL, Supabase, MySQL, Docker</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="75">
+                <span class="progress-text">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item" data-skill="security">
+            <div class="skill-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Cyber Security</h3>
+            <p>Network Security</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="75">
+                <span class="progress-text">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item" data-skill="design">
+            <div class="skill-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Tools, Design, Frameworks</h3>
+            <p>GitHub, VS Code, Apache, JQuery</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="75">
+                <span class="progress-text">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item" data-skill="mobile">
+            <div class="skill-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Mobile Development</h3>
+            <p>React Native</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="50">
+                <span class="progress-text">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          <span>My Projects</span>
+          <div class="title-glow"></div>
+        </h2>
+        <div class="projects-grid">
+          <!-- Gamified Finance Visualizer -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>Gamified Finance Visualizer</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/COS301-SE-2025/Gamified-Financial-Visualizer.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Gamified Finance Visualizer</h3>
+              <p>
+                A web and mobile application that gamifies personal finance
+                management, allowing users to track expenses, set budgets, and
+                visualize their financial health with the use of AI and AR
+                features built as my third year capstone project under EPI-USE.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Tailwind</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Unity</span>
+                <span class="tech-tag">Blender</span>
+                <span class="tech-tag">Pytorch</span>
+                <span class="tech-tag">Tensorflow</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PPW -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>Personal Portfolio Website</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/AundreaNcube/PPW.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                A lightweight portfolio website built as a fun personal project
+                to showcase my skills, abilities and projects completed thus far
+                , which is currently the website you are looking at :)
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Javascript ES6+</span>
+                <span class="tech-tag">Web APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- mp -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>Mini Project Database</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/COS301-SE-2025/MP6.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Mini Project Database</h3>
+              <p>
+                A final year mini project involving the design of a
+                non-relational database system that allows users to create, add,
+                update and delete databases, collections and documents.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">JSX </span>
+                <span class="tech-tag">TCP/Web Sockets</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">Node.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shopeze -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>E-Commerce Platform</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/AundreaNcube/SHOPEZE_COS216.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>SHOPEZE E-Commerce Web App</h3>
+              <p>
+                A full-stack e-commerce web application built as my second year
+                project for Netcentric Computer Systems, featuring user
+                authentication, order processing, and admin dashboard.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">JQuery</span>
+                <!-- <span class="tech-tag"></span> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- cos216 HA -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>Courier System</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/AundreaNcube/HA.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Courier System</h3>
+              <p>
+                A second-year project involving a drone courier system with
+                interactive map visualization, supporting live drone tracking,
+                multi-user functionality, and real-time deliveries.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">Web Sockets</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">Node.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- big mahn -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>City Builder Simulator</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/COS214-Project-2024/Big-Mahn-Tech-And-Sons.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>City Builder Simulator</h3>
+              <p>
+                A purely C++ project under Software Modelling module designed to
+                simulate the growth and management of a city. Players can
+                construct buildings, manage resources, set taxes, and monitor
+                citizen well-being. The project integrates several software
+                design patterns.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Chain Of Responsibility</span>
+                <span class="tech-tag">Factory Method</span>
+                <span class="tech-tag">Observer</span>
+                <span class="tech-tag">Command</span>
+                <span class="tech-tag">Mediator</span>
+                <span class="tech-tag">Facade</span>
+                <span class="tech-tag">State</span>
+                <span class="tech-tag">Visitor</span>
+                <span class="tech-tag">Strategy</span>
+                <span class="tech-tag">Prototype</span>
+                <span class="tech-tag">Singleton</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- cinetech -->
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <h3>CineTech</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/B-WayneZA/CineTech.git"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>CineTech</h3>
+              <p>
+                A second-year project involving the design of a Netflix-style
+                web application for my Database Systems module, featuring movie
+                listing, addition and deletion, user authentication, and a
+                notification system.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <span>Get In Touch</span>
+          <div class="title-glow"></div>
+        </h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <strong>Email:</strong>
+                <span>aundreancu@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-discord"></i>
+              </div>
+              <div class="contact-details">
+                <strong>Discord:</strong>
+                <span>
+                  <a
+                    href="https://discord.com/users/u22747363_Aundrea/"
+                    target="_blank"
+                  >
+                    Discord
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <strong>Location:</strong>
+                <span>Pretoria, South Africa</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <strong>LinkedIn:</strong>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/aundrea-n-1484a9356"
+                    target="_blank"
+                    >LinkedIn</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="social-links">
+            <a
+              href="https://github.com/AundreaNcube"
+              target="_blank"
+              class="social-link"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aundrea-n-1484a9356"
+              target="_blank"
+              class="social-link"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a
+              href="https://discord.com/users/u22747363_Aundrea/"
+              target="_blank"
+              class="social-link"
+            >
+              <i class="fab fa-discord"></i>
+            </a>
+          </div>
+          <p>&copy; 2025 Aundrea Nandie Ncube. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
